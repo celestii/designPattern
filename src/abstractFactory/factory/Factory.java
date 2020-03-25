@@ -6,7 +6,7 @@ public abstract class Factory {
         try {
             factory = (Factory)Class.forName(classname).newInstance();
         } catch (ClassNotFoundException e) {
-            System.err.println("Ŭ���� " + classname + " �� �߰ߵ��� �ʽ��ϴ�.");
+            System.err.println("클래스 " + classname + " 이 발견되지 않았습니다.");
         } catch (Exception e) {
             e.printStackTrace();
         }

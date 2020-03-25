@@ -1,11 +1,15 @@
 package abstractFactory.listfactory;
-import factory.*;
+
+import abstractFactory.factory.Item;
+import abstractFactory.factory.Tray;
+
 import java.util.Iterator;
 
 public class ListTray extends Tray {
     public ListTray(String caption) {
         super(caption);
     }
+
     public String makeHTML() {
         StringBuffer buffer = new StringBuffer();
         buffer.append("<li>\n");
@@ -13,7 +17,7 @@ public class ListTray extends Tray {
         buffer.append("<ul>\n");
         Iterator it = tray.iterator();
         while (it.hasNext()) {
-            Item item = (Item)it.next();
+            Item item = (Item) it.next();
             buffer.append(item.makeHTML());
         }
         buffer.append("</ul>\n");
