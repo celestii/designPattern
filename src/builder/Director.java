@@ -2,22 +2,22 @@ package builder;
 
 public class Director {
     private Builder builder;
-    public Director(Builder builder) {        // Builder�� Subclass�� �ν��Ͻ��� �־����Ƿ�
-        this.builder = builder;             // builder �ʵ忡 ������ �д�.
+    public Director(Builder builder) {
+        this.builder = builder;
     }
-    public void construct() {               		// ��������
-        builder.makeTitle("Greeting");              // Ÿ��Ʋ
-        builder.makeString("��ħ�� ����");         // ���ڿ�
-        builder.makeItems(new String[]{            // �����׸�
-            "���� ��ħ�Դϴ�",
-            "�ȳ��ϼ���",
+    public void construct() {
+        builder.makeTitle("Greeting");
+        builder.makeString("아침과 낮에");
+        builder.makeItems(new String[]{
+            "좋은 아침입니다.",
+            "안녕하세요.",
         });
-        builder.makeString("�㿡");                // ������ ���ڿ�
-        builder.makeItems(new String[]{           // ������ �����׸�
-            "�ȳ��ϼ���",
-            "�ȳ��� �ֹ�����",
-            "�ȳ��� �輼��",
+        builder.makeString("밤에");
+        builder.makeItems(new String[]{
+            "안녕하세요.",
+            "안녕히 주무세요.",
+            "안녕히 계세요.",
         });
-        builder.close();                           // ������ �ϼ���Ų��
+        builder.close();
     }
 }

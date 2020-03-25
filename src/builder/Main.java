@@ -18,6 +18,7 @@ public class Main {
             System.exit(0);
         }
     }
+
     public static void usage() {
         System.out.println("Usage: java Main html  HTML 파일로 문서작성");
     }
