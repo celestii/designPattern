@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40839637-79e0-4d59-a10a-1e5292850721" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/factoryMethod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factoryMethod/framework/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factoryMethod/framework/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factoryMethod/idcard/IdCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factoryMethod/idcard/IdCardFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/example3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleton/example3/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,24 +17,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/iterator/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newfile.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/adaptor/newfile.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templateMethod/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -48,11 +28,29 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/factoryMethod/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/singleton/example3/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/singleton/example3/Singleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -90,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdCard.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IdCard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/factoryMethod/idcard/IdCard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -160,6 +158,8 @@
         <option value="$PROJECT_DIR$/src/factoryMethod/framework/Product.java" />
         <option value="$PROJECT_DIR$/src/factoryMethod/Main.java" />
         <option value="$PROJECT_DIR$/src/factoryMethod/idcard/IdCard.java" />
+        <option value="$PROJECT_DIR$/src/singleton/example3/Main.java" />
+        <option value="$PROJECT_DIR$/src/singleton/example3/Singleton.java" />
       </list>
     </option>
   </component>
@@ -173,8 +173,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="2048" />
-    <option name="height" value="1280" />
+    <option name="width" value="1792" />
+    <option name="height" value="1120" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -216,6 +216,19 @@
               <item name="factoryMethod" type="462c0819:PsiDirectoryNode" />
               <item name="idcard" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="designPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="example3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -230,6 +243,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/singleton/example3" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -242,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="iterator.Main" />
       <module name="designPattern" />
@@ -283,22 +301,26 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleton.example3.Main" />
       <module name="designPattern" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singleton.example3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
       <item itemvalue="Application.Main (4)" />
+      <item itemvalue="Application.Main (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
@@ -332,11 +354,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585063642599</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="factory method pattern">
+      <created>1585065115807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585065115807</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3873000" />
+    <option name="totallyTimeSpent" value="5321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2048" height="1280" extended-state="0" />
@@ -345,7 +374,7 @@
       <window_info anchor="right" id="PlantUML" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="DB Execution Console" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.500997" side_tool="true" visible="true" weight="0.32994923" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info id="Capture Tool" />
@@ -361,13 +390,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32994923" />
+      <window_info anchor="bottom" id="Messages" weight="0.32994923" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.499003" visible="true" weight="0.32994923" />
       <window_info anchor="bottom" id="Version Control" weight="0.32994923" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32994923" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.4995015" weight="0.32994923" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21784645" />
       <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Theme Preview" />
@@ -415,7 +444,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adaptor pattern" />
     <MESSAGE value="template method pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="template method pattern" />
+    <MESSAGE value="factory method pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="factory method pattern" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/iterator/Iterator.java">
@@ -627,16 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/factoryMethod/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/factoryMethod/idcard/IdCard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -645,6 +665,30 @@
             <element signature="e#331#332#0" expanded="true" />
             <element signature="e#359#360#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factoryMethod/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singleton/example3/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/singleton/example3/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
