@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40839637-79e0-4d59-a10a-1e5292850721" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/HTMLBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/factory/Tray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/listfactory/ListLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/listfactory/ListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/listfactory/ListTray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/tablefactory/TableLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/tablefactory/TablePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractFactory/tablefactory/TableTray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,24 +27,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/singleton/example3/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/singleton/example3/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/prototype/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -48,14 +38,31 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/builder/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+            <state relative-caret-position="210">
+              <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
               <folding>
                 <element signature="e#588#589#0" expanded="true" />
                 <element signature="e#667#668#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/abstractFactory/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Factory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/abstractFactory/factory/Factory.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Director.java" pinned="false" current-in-tab="false">
@@ -72,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HTMLBuilder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HTMLBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/builder/HTMLBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#617#618#0" expanded="true" />
@@ -160,6 +167,8 @@
         <option value="$PROJECT_DIR$/src/builder/Builder.java" />
         <option value="$PROJECT_DIR$/src/builder/Main.java" />
         <option value="$PROJECT_DIR$/src/builder/HTMLBuilder.java" />
+        <option value="$PROJECT_DIR$/src/abstractFactory/factory/Factory.java" />
+        <option value="$PROJECT_DIR$/src/abstractFactory/Main.java" />
       </list>
     </option>
   </component>
@@ -200,7 +209,29 @@
               <item name="designPattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designPattern" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractFactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="Factory" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="designPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
@@ -218,6 +249,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/abstractFactory/factory" />
+      <recent name="$PROJECT_DIR$/src/abstractFactory" />
       <recent name="$PROJECT_DIR$/src/builder" />
       <recent name="$PROJECT_DIR$/src/singleton/example3" />
     </key>
@@ -349,11 +382,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585147937352</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="builder pattern">
+      <created>1585149575261</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585149575261</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6651000" />
+    <option name="totallyTimeSpent" value="7513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2048" height="1280" extended-state="0" />
@@ -435,7 +475,8 @@
     <MESSAGE value="factory method pattern" />
     <MESSAGE value="singleton pattern" />
     <MESSAGE value="prototype pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="prototype pattern" />
+    <MESSAGE value="builder pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="builder pattern" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/iterator/Iterator.java">
@@ -713,17 +754,6 @@
     <entry file="file://$PROJECT_DIR$/src/builder/Director.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/builder/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
-          <folding>
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/builder/Builder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -733,14 +763,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/builder/HTMLBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#617#618#0" expanded="true" />
             <element signature="e#750#751#0" expanded="true" />
             <element signature="e#1348#1349#0" expanded="true" />
             <element signature="e#1434#1435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/builder/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractFactory/factory/Factory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/abstractFactory/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
